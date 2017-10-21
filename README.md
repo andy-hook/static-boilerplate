@@ -1,14 +1,14 @@
 # static-boilerplate
 A very simple static boilerplate for quick animation prototyping.
 
-Assemble
-Handlebars
-Gulp
-Browserify
-Babel
-ESlint - Airbnb
-SASS
-GSAP
+* Assemble
+* Handlebars
+* Gulp
+* Browserify
+* Babel
+* ESlint - Airbnb
+* SASS
+* GSAP
 
 ```
 assemble // Build and serve for development
