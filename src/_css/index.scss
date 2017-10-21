@@ -5,7 +5,8 @@
    ========================================================================== */
 
 // Helper functions
-@import 'functions/_test-function';
+@import 'functions/_pem';
+@import 'functions/_prem';
 
 
 /* Core styles
@@ -17,4 +18,4 @@
 /* Components
    ========================================================================== */
 
-@import 'components/c-test-component';
+@import 'components/c-icon';

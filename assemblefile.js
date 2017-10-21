@@ -200,9 +200,9 @@ site.task('serve', () => {
 });
 
 // Assign default task
-site.task('build', ['svg', 'build', 'css', 'js']);
+site.task('build-dist', ['svg', 'build', 'css', 'js']);
 site.task('deploy', ['clear', 'build-site']);
-site.task('default', ['build-site', 'serve']);
+site.task('default', ['build-dist', 'serve']);
 
 // Expose instance to assemble's CLI
 module.exports = site;

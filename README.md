@@ -16,7 +16,7 @@ assemble
 Build and serve for development
 
 ```
-build
+build-dist
 ```
 Compiles to dist but does not serve
 
