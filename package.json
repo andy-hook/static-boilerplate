@@ -1,7 +1,7 @@
 {
-  "name": "andy-hook.co.uk",
+  "name": "static-boilerplate",
   "version": "0.0.1",
-  "description": "The online portfolio of Designer / Developer Andy Hook",
+  "description": "A very simple static boilerplate for quick animation prototyping",
   "author": "Andy Hook <hello@andy-hook.co.uk>",
   "dependencies": {
     "assemble": "^0.23.0",
