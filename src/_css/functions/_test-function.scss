@@ -1,0 +1,23 @@
+/// Convert pixels to ems
+///
+/// @param {Number} $px - value to convert
+/// @param {Number} $base-font-size ($pem-conversion-base) - `<body>` font size
+///
+/// @example scss
+///  $font-size-in-ems: pem(16px);
+///  p { font-size: pem(16px); }
+///
+/// @requires $base-font-size
+/// @returns {Number}
+
+$pem-conversion-base: 16px;
+
+@function pem($px, $base-font-size: $pem-conversion-base) {
+    @if unitless($px) {
+        @warn "Assuming #{$px} to be in pixels, attempting to convert it into pixels.";
+        @return mq-px2em($px * 1px, $base-font-size);
+    } @else if unit($px) == em {
+        @return $px;
+    }
+    @return ($px / $base-font-size) * 1em;
+}

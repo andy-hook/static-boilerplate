@@ -1,0 +1,20 @@
+/*! index.scss - Sass compile entry point */
+
+
+/* Function imports
+   ========================================================================== */
+
+// Helper functions
+@import 'functions/_test-function';
+
+
+/* Core styles
+   ========================================================================== */
+
+@import 'core/base';
+
+
+/* Components
+   ========================================================================== */
+
+@import 'components/c-test-component';

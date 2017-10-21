@@ -1,0 +1,34 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <title></title>
+
+        <!-- Browser -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="msapplication-tap-highlight" content="no">
+
+        <!-- Styles - If the template is a project then output relative url based on root directory -->
+        <link rel="stylesheet" href="{{cssPath}}{{cssFilename}}">
+    </head>
+
+    <body>
+        
+        <div class="spritesheet">
+            {{> spritesheet}}
+        </div>
+
+        <div class="l-content">
+
+            {% body %}
+        </div>
+
+     {{!--    {{> TEMP-TESTING}} --}}
+
+        <!-- Script Bundle - If the template is a project then output relative url based on root directory -->
+        <script src="{{jsPath}}{{jsFilename}}"></script>
+    </body>
+</html>
