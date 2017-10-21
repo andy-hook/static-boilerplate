@@ -15,7 +15,6 @@ const babelify = require('babelify'); // ES6 Transpiling
 const del = require('del');
 const flatten = require('gulp-flatten'); // Flattern paths
 const fs = require('fs'); // File system manip
-const permalinks = require('assemble-permalinks');
 const plumber = require('gulp-plumber');
 
 const bs = browsersync.create();
@@ -201,7 +200,7 @@ site.task('serve', () => {
 });
 
 // Assign default task
-site.task('build-site', ['svg', 'build', 'css', 'js']);
+site.task('build', ['svg', 'build', 'css', 'js']);
 site.task('deploy', ['clear', 'build-site']);
 site.task('default', ['build-site', 'serve']);
 
