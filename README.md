@@ -11,16 +11,13 @@ SASS
 GSAP
 
 ```
-assemble
+assemble // Build and serve for development
 ```
-Build and serve for development
 
 ```
-build-dist
+build-dist // Compiles to dist but does not serve
 ```
-Compiles to dist but does not serve
 
 ```
-deploy
+deploy // Cleans dist directory ready for manual deploy
 ```
-Cleans dist directory ready for manual deploy
